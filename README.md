@@ -65,24 +65,24 @@ Case de erro na conexão vá no Atlas na aba Network Acess e adicione seu IP da 
 
 ### Backend
 1. Instale as dependências do Python:
-2. 
+   ```sh
    pip install fastapi uvicorn pymongo
-   
-3. Execute o backend com o comando:
-
+   ```
+2. Execute o backend com o comando:
+   ```sh
    uvicorn main:app --reload
-   
-4. O backend rodará na porta **8000**.
+   ```
+3. O backend rodará na porta **8000**.
 
 ### Frontend
 1. Instale as dependências do projeto:
-   
+   ```sh
    npm install
-   
+   ```
 2. Execute o frontend com:
-   
+   ```sh
    npm start
-   
+   ```
 3. O frontend rodará na porta **3000**.
 
 ---
