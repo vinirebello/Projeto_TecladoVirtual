@@ -56,7 +56,8 @@ As coleções do banco estarao dentro de ProjectDB
 
 Case de erro na conexão vá no Atlas na aba Network Acess e adicione seu IP da rede
 
-![image](https://github.com/user-attachments/assets/a018b38a-8195-4026-9b7b-a0d098ad96f1)
+![Sem título](https://github.com/user-attachments/assets/04b24e4d-5ceb-47c1-a875-e164065a4958)
+
 
 ---------------
 
