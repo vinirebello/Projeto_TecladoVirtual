@@ -1,4 +1,4 @@
-# Projeto: Teclado Virtual para Autenticação Bancária
+# Projeto: Teclado virtual para acesso bancário
 
 ## Visão Geral
 Este projeto consiste em um sistema de autenticação segura utilizando um teclado virtual dinâmico. Ele é composto por um **backend** desenvolvido em **FastAPI** com um banco de dados **MongoDB**, e um **frontend** desenvolvido em **React**.
