@@ -5,6 +5,10 @@ Este projeto consiste em um sistema de autenticação segura utilizando um tecla
 
 O sistema gera combinações aleatórias de pares de números e as apresenta ao usuário, que deve selecionar os números correspondentes à sua senha cadastrada. Caso a senha esteja incorreta, uma nova combinação é gerada automaticamente.
 
+## Obervações
+- Não foi implementado criptografia entre frontend e backend.
+- As combinações não são desativadas após o uso ou quando o usuário errar a senha.
+
 ## Tecnologias Utilizadas
 
 ### Backend:
@@ -114,18 +118,20 @@ Case de erro na conexão vá no Atlas na aba Network Acess e adicione seu IP da 
 
 ### Coleções:
 1. **Users**:
-
+   ```json
    {
        "id": 1,
        "nome": "Usuarioteste",
        "senha": [1,2,3,4,5]
    }
-   
+   ```
 
 2. **Combinations**:
-   
+   ```json
    {
        "hash": "abc123...",
        "combination": [[0,9], [3,7], [4,8], [2,6], [1,5]]
    }
+   ```
+
 
